@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<package>
+  <name>finalarm_simplified_control</name>
+  <version>2.0.0</version>
+ <description>
+      controller manager for handy_v2 robot arm with 7 motors(no motor for gripper)
+  </description>
+
+  <author>ruinianxu</author>
+  <author email="gtsimonxu@gatech.edu">ruinianxu</author>
+  <maintainer email="gtsimonxu@gatech.edu">ruinianxu</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>cmake_modules</build_depend>
+
+  <run_depend>finalarm_control</run_depend>
+</package>

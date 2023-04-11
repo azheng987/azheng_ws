@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target finalarm_description__xacro_auto_generate_to_devel_space_[0m
+[35m[1mScanning dependencies of target finalarm_description__xacro_auto_generate[0m
+[ 14%] [34m[1mcreating dir /home/vipteam/azheng_ws/devel/.private/finalarm_description/share/finalarm_description/urdf[0m
+[ 42%] Built target finalarm_description__xacro_auto_generate
+[ 57%] [34m[1mCopying to devel space: /home/vipteam/azheng_ws/devel/.private/finalarm_description/share/finalarm_description/urdf/finalarm_description_position_control.urdf[0m
+[ 71%] [34m[1mCopying to devel space: /home/vipteam/azheng_ws/devel/.private/finalarm_description/share/finalarm_description/urdf/finalarm_description.urdf[0m
+[100%] Built target finalarm_description__xacro_auto_generate_to_devel_space_
+[35m[1mScanning dependencies of target finalarm_description_xacro_generated_to_devel_space_[0m
+[100%] Built target finalarm_description_xacro_generated_to_devel_space_

@@ -1,0 +1,1 @@
+/home/vipteam/azheng_ws/devel/.private/dynamixel_msgs/share/roseus/ros/dynamixel_msgs/msg/JointState.l

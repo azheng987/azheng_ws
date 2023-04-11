@@ -1,0 +1,8 @@
+prefix=/home/vipteam/azheng_ws/install
+
+Name: finalarm_moveit_config
+Description: Description of finalarm_moveit_config
+Version: 2.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,4 @@
+Symlinking /home/vipteam/azheng_ws/devel/lib/python3/dist-packages/dynamixel_driver/__init__.py
+Symlinking /home/vipteam/azheng_ws/devel/lib/pkgconfig/dynamixel_driver.pc
+Symlinking /home/vipteam/azheng_ws/devel/share/dynamixel_driver/cmake/dynamixel_driverConfig-version.cmake
+Symlinking /home/vipteam/azheng_ws/devel/share/dynamixel_driver/cmake/dynamixel_driverConfig.cmake

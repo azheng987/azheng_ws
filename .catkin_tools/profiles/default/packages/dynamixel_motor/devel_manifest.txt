@@ -1,0 +1,2 @@
+ivaDynamixel/dynamixel_motor
+/home/vipteam/azheng_ws/devel/.private/dynamixel_motor/cmake.lock /home/vipteam/azheng_ws/devel/./cmake.lock

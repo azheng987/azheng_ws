@@ -1,0 +1,4 @@
+Symlinking /home/vipteam/azheng_ws/devel/lib/librealsense_gazebo_plugin.so
+Symlinking /home/vipteam/azheng_ws/devel/lib/pkgconfig/realsense_gazebo_plugin.pc
+Symlinking /home/vipteam/azheng_ws/devel/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig-version.cmake
+Symlinking /home/vipteam/azheng_ws/devel/share/realsense_gazebo_plugin/cmake/realsense_gazebo_pluginConfig.cmake

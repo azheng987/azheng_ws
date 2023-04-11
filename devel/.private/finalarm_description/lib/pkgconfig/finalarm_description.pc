@@ -1,0 +1,8 @@
+prefix=/home/vipteam/azheng_ws/devel/.private/finalarm_description
+
+Name: finalarm_description
+Description: Description of finalarm_description
+Version: 2.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

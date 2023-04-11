@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  # base container -- will simply exit once brought up
+  # we can run commands via this container for running experiments, etc.
+  base:
+    network_mode: host
+    command: bash
+    volumes:
+      - ./:/app/
+    devices:
+      - /dev/v4l
+      # the /dev path to the webcam?
+    privileged: true
+  

@@ -1,0 +1,1 @@
+/home/vipteam/azheng_ws/devel/.private/finalarm_simplified_gazebo/lib/pkgconfig/finalarm_simplified_gazebo.pc

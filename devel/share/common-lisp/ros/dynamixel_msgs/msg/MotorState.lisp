@@ -1,0 +1,1 @@
+/home/vipteam/azheng_ws/devel/.private/dynamixel_msgs/share/common-lisp/ros/dynamixel_msgs/msg/MotorState.lisp

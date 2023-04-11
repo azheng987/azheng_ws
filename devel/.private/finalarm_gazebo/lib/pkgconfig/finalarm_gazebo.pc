@@ -1,0 +1,8 @@
+prefix=/home/vipteam/azheng_ws/devel/.private/finalarm_gazebo
+
+Name: finalarm_gazebo
+Description: Description of finalarm_gazebo
+Version: 2.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

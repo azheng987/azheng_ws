@@ -1,0 +1,1 @@
+/home/vipteam/azheng_ws/devel/.private/dynamixel_msgs/lib/python3/dist-packages/dynamixel_msgs/msg/__init__.py
