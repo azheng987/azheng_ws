@@ -26,7 +26,12 @@ There are two versions of Handy, one is the normal model which the other one is 
 
 ### real world motion planning with Handy
 
-Ensure that the current user is part of the `dialout` group.
+Ensure that the current user is part of the `dialout` group. This command should display ```dialout``` in the options listed.
+```bash
+groups
+```
+
+
 If you get permission issues connecting to `/dev/ttyUSB0`, run the following and logout+login.
 
 ```bash
