@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find finalarm_control)/launch/start_controller.launch">
+    <arg name="spawn_end_effector_controller" value="false" />
+  </include>
+</launch>

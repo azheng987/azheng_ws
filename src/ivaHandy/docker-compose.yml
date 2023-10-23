@@ -1,0 +1,59 @@
+# Launch a ros master with the controller manager and associated services
+#
+# This configuration is for testing out Handy. See the `docs/docker.md` for
+# more details on this configuration file.
+#
+version: "3.8"
+
+services:
+  # base container -- will simply exit once brought up
+  # we can run commands via this container for running experiments, etc.
+  handy: &base
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.noetic
+      cache_from:
+        - ivalab/handy:latest
+    image: ivalab/handy:latest
+    network_mode: host
+    volumes:
+      - ./:/app/src/ivaHandy/
+      - ./docker/bin:/app/bin/
+    devices:
+      - /dev/ttyUSB0
+    privileged: true
+
+  # http://wiki.ros.org/docker/Tutorials/Compose
+  master:
+    restart: always
+    image: ros:noetic-ros-core-focal
+    command: stdbuf -o L roscore
+    network_mode: host
+
+  controller:
+    <<: *base
+    restart: always
+    command: roslaunch --wait finalarm_control controller_manager.launch
+    depends_on:
+      - master
+
+  # start the dynamixel controller manager
+  # NOTE: this will die once it has initialized the controllers
+  start_controller:
+    <<: *base
+    restart: on-failure
+    command: roslaunch --wait finalarm_control start_controller.launch
+    depends_on:
+      - controller
+
+  robot_state_pub:
+    <<: *base
+    restart: on-failure
+    command: |
+      bash -c "
+        bin/wait_for_topic_pattern.sh 'finalarm_position_controller_' &&
+        stdbuf -o L roslaunch --wait finalarm_description robot_state_pub.launch
+      "
+    depends_on:
+      - start_controller
+
