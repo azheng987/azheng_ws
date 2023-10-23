@@ -1,0 +1,1 @@
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/share/roseus/ros/autobots_calibration/manifest.l

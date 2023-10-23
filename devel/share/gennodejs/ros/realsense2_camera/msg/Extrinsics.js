@@ -1,0 +1,1 @@
+/home/vipteam/azheng_ws/devel/.private/realsense2_camera/share/gennodejs/ros/realsense2_camera/msg/Extrinsics.js

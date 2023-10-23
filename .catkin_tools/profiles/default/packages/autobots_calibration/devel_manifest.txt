@@ -1,0 +1,26 @@
+pick-and-place/ros/autobots_calibration
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/cmake.lock /home/vipteam/azheng_ws/devel/./cmake.lock
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/include/autobots_calibration/CameraStatus.h /home/vipteam/azheng_ws/devel/include/autobots_calibration/CameraStatus.h
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/include/autobots_calibration/CameraExtrinsics.h /home/vipteam/azheng_ws/devel/include/autobots_calibration/CameraExtrinsics.h
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/lib/python3/dist-packages/autobots_calibration/__init__.py /home/vipteam/azheng_ws/devel/lib/python3/dist-packages/autobots_calibration/__init__.py
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/lib/python3/dist-packages/autobots_calibration/msg/_CameraStatus.py /home/vipteam/azheng_ws/devel/lib/python3/dist-packages/autobots_calibration/msg/_CameraStatus.py
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/lib/python3/dist-packages/autobots_calibration/msg/__init__.py /home/vipteam/azheng_ws/devel/lib/python3/dist-packages/autobots_calibration/msg/__init__.py
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/lib/python3/dist-packages/autobots_calibration/msg/_CameraExtrinsics.py /home/vipteam/azheng_ws/devel/lib/python3/dist-packages/autobots_calibration/msg/_CameraExtrinsics.py
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/lib/pkgconfig/autobots_calibration.pc /home/vipteam/azheng_ws/devel/lib/pkgconfig/autobots_calibration.pc
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/share/autobots_calibration/cmake/autobots_calibrationConfig.cmake /home/vipteam/azheng_ws/devel/share/autobots_calibration/cmake/autobots_calibrationConfig.cmake
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/share/autobots_calibration/cmake/autobots_calibrationConfig-version.cmake /home/vipteam/azheng_ws/devel/share/autobots_calibration/cmake/autobots_calibrationConfig-version.cmake
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/share/autobots_calibration/cmake/autobots_calibration-msg-extras.cmake /home/vipteam/azheng_ws/devel/share/autobots_calibration/cmake/autobots_calibration-msg-extras.cmake
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/share/autobots_calibration/cmake/autobots_calibration-msg-paths.cmake /home/vipteam/azheng_ws/devel/share/autobots_calibration/cmake/autobots_calibration-msg-paths.cmake
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/share/gennodejs/ros/autobots_calibration/_index.js /home/vipteam/azheng_ws/devel/share/gennodejs/ros/autobots_calibration/_index.js
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/share/gennodejs/ros/autobots_calibration/msg/_index.js /home/vipteam/azheng_ws/devel/share/gennodejs/ros/autobots_calibration/msg/_index.js
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/share/gennodejs/ros/autobots_calibration/msg/CameraExtrinsics.js /home/vipteam/azheng_ws/devel/share/gennodejs/ros/autobots_calibration/msg/CameraExtrinsics.js
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/share/gennodejs/ros/autobots_calibration/msg/CameraStatus.js /home/vipteam/azheng_ws/devel/share/gennodejs/ros/autobots_calibration/msg/CameraStatus.js
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/share/roseus/ros/autobots_calibration/manifest.l /home/vipteam/azheng_ws/devel/share/roseus/ros/autobots_calibration/manifest.l
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/share/roseus/ros/autobots_calibration/msg/CameraStatus.l /home/vipteam/azheng_ws/devel/share/roseus/ros/autobots_calibration/msg/CameraStatus.l
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/share/roseus/ros/autobots_calibration/msg/CameraExtrinsics.l /home/vipteam/azheng_ws/devel/share/roseus/ros/autobots_calibration/msg/CameraExtrinsics.l
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/share/common-lisp/ros/autobots_calibration/msg/_package.lisp /home/vipteam/azheng_ws/devel/share/common-lisp/ros/autobots_calibration/msg/_package.lisp
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/share/common-lisp/ros/autobots_calibration/msg/_package_CameraExtrinsics.lisp /home/vipteam/azheng_ws/devel/share/common-lisp/ros/autobots_calibration/msg/_package_CameraExtrinsics.lisp
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/share/common-lisp/ros/autobots_calibration/msg/_package_CameraStatus.lisp /home/vipteam/azheng_ws/devel/share/common-lisp/ros/autobots_calibration/msg/_package_CameraStatus.lisp
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/share/common-lisp/ros/autobots_calibration/msg/CameraExtrinsics.lisp /home/vipteam/azheng_ws/devel/share/common-lisp/ros/autobots_calibration/msg/CameraExtrinsics.lisp
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/share/common-lisp/ros/autobots_calibration/msg/CameraStatus.lisp /home/vipteam/azheng_ws/devel/share/common-lisp/ros/autobots_calibration/msg/CameraStatus.lisp
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/share/common-lisp/ros/autobots_calibration/msg/autobots_calibration-msg.asd /home/vipteam/azheng_ws/devel/share/common-lisp/ros/autobots_calibration/msg/autobots_calibration-msg.asd

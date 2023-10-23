@@ -8,8 +8,6 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/vipteam/azheng_ws/devel/.private/realsense_gazebo_plugin:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/vipteam/azheng_ws/devel/.private/realsense_gazebo_plugin/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/vipteam/azheng_ws/devel/.private/realsense_gazebo_plugin/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/vipteam/azheng_ws/build/realsense_gazebo_plugin'
 export ROSLISP_PACKAGE_DIRECTORIES="/home/vipteam/azheng_ws/devel/.private/realsense_gazebo_plugin/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/vipteam/azheng_ws/src/realsense-ros-gazebo/realsense_gazebo_plugin:$ROS_PACKAGE_PATH"

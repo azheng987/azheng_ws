@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/vipteam/azheng_ws/build/dynamixel_controllers/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_a35c9/fast && /usr/bin/make -f CMakeFiles/cmTC_a35c9.dir/build.make CMakeFiles/cmTC_a35c9.dir/build
+Run Build Command(s):/usr/bin/make cmTC_3daed/fast && /usr/bin/make -f CMakeFiles/cmTC_3daed.dir/build.make CMakeFiles/cmTC_3daed.dir/build
 make[1]: Entering directory '/home/vipteam/azheng_ws/build/dynamixel_controllers/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a35c9.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_a35c9.dir/src.c.o   -c /home/vipteam/azheng_ws/build/dynamixel_controllers/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_a35c9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a35c9.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_a35c9.dir/src.c.o  -o cmTC_a35c9 
-/usr/bin/ld: CMakeFiles/cmTC_a35c9.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_3daed.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_3daed.dir/src.c.o   -c /home/vipteam/azheng_ws/build/dynamixel_controllers/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3daed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3daed.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_3daed.dir/src.c.o  -o cmTC_3daed 
+/usr/bin/ld: CMakeFiles/cmTC_3daed.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_a35c9.dir/build.make:87: cmTC_a35c9] Error 1
+make[1]: *** [CMakeFiles/cmTC_3daed.dir/build.make:87: cmTC_3daed] Error 1
 make[1]: Leaving directory '/home/vipteam/azheng_ws/build/dynamixel_controllers/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_a35c9/fast] Error 2
+make: *** [Makefile:121: cmTC_3daed/fast] Error 2
 
 
 Source file was:
@@ -41,18 +41,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/vipteam/azheng_ws/build/dynamixel_controllers/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_204ff/fast && /usr/bin/make -f CMakeFiles/cmTC_204ff.dir/build.make CMakeFiles/cmTC_204ff.dir/build
+Run Build Command(s):/usr/bin/make cmTC_3a07d/fast && /usr/bin/make -f CMakeFiles/cmTC_3a07d.dir/build.make CMakeFiles/cmTC_3a07d.dir/build
 make[1]: Entering directory '/home/vipteam/azheng_ws/build/dynamixel_controllers/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_204ff.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_204ff.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_204ff
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_204ff.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_204ff.dir/CheckFunctionExists.c.o  -o cmTC_204ff  -lpthreads 
+Building C object CMakeFiles/cmTC_3a07d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3a07d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3a07d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a07d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_3a07d.dir/CheckFunctionExists.c.o  -o cmTC_3a07d  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_204ff.dir/build.make:87: cmTC_204ff] Error 1
+make[1]: *** [CMakeFiles/cmTC_3a07d.dir/build.make:87: cmTC_3a07d] Error 1
 make[1]: Leaving directory '/home/vipteam/azheng_ws/build/dynamixel_controllers/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_204ff/fast] Error 2
+make: *** [Makefile:121: cmTC_3a07d/fast] Error 2
 
 
 

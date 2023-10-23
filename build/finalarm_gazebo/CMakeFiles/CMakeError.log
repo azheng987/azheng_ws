@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/vipteam/azheng_ws/build/finalarm_gazebo/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_5b0b8/fast && /usr/bin/make -f CMakeFiles/cmTC_5b0b8.dir/build.make CMakeFiles/cmTC_5b0b8.dir/build
+Run Build Command(s):/usr/bin/make cmTC_34a19/fast && /usr/bin/make -f CMakeFiles/cmTC_34a19.dir/build.make CMakeFiles/cmTC_34a19.dir/build
 make[1]: Entering directory '/home/vipteam/azheng_ws/build/finalarm_gazebo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5b0b8.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_5b0b8.dir/src.c.o   -c /home/vipteam/azheng_ws/build/finalarm_gazebo/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_5b0b8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b0b8.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_5b0b8.dir/src.c.o  -o cmTC_5b0b8 
-/usr/bin/ld: CMakeFiles/cmTC_5b0b8.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_34a19.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_34a19.dir/src.c.o   -c /home/vipteam/azheng_ws/build/finalarm_gazebo/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_34a19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34a19.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_34a19.dir/src.c.o  -o cmTC_34a19 
+/usr/bin/ld: CMakeFiles/cmTC_34a19.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_5b0b8.dir/build.make:87: cmTC_5b0b8] Error 1
+make[1]: *** [CMakeFiles/cmTC_34a19.dir/build.make:87: cmTC_34a19] Error 1
 make[1]: Leaving directory '/home/vipteam/azheng_ws/build/finalarm_gazebo/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_5b0b8/fast] Error 2
+make: *** [Makefile:121: cmTC_34a19/fast] Error 2
 
 
 Source file was:
@@ -41,18 +41,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/vipteam/azheng_ws/build/finalarm_gazebo/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_15221/fast && /usr/bin/make -f CMakeFiles/cmTC_15221.dir/build.make CMakeFiles/cmTC_15221.dir/build
+Run Build Command(s):/usr/bin/make cmTC_3712c/fast && /usr/bin/make -f CMakeFiles/cmTC_3712c.dir/build.make CMakeFiles/cmTC_3712c.dir/build
 make[1]: Entering directory '/home/vipteam/azheng_ws/build/finalarm_gazebo/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_15221.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_15221.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_15221
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15221.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_15221.dir/CheckFunctionExists.c.o  -o cmTC_15221  -lpthreads 
+Building C object CMakeFiles/cmTC_3712c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3712c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3712c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3712c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_3712c.dir/CheckFunctionExists.c.o  -o cmTC_3712c  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_15221.dir/build.make:87: cmTC_15221] Error 1
+make[1]: *** [CMakeFiles/cmTC_3712c.dir/build.make:87: cmTC_3712c] Error 1
 make[1]: Leaving directory '/home/vipteam/azheng_ws/build/finalarm_gazebo/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_15221/fast] Error 2
+make: *** [Makefile:121: cmTC_3712c/fast] Error 2
 
 
 

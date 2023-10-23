@@ -1,0 +1,1 @@
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/share/common-lisp/ros/autobots_calibration/msg/_package_CameraStatus.lisp

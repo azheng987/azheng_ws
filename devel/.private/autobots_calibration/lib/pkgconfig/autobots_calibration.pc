@@ -1,0 +1,8 @@
+prefix=/home/vipteam/azheng_ws/devel/.private/autobots_calibration
+
+Name: autobots_calibration
+Description: Description of autobots_calibration
+Version: 0.0.0
+Cflags: -I/home/vipteam/azheng_ws/devel/.private/autobots_calibration/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

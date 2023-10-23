@@ -1,0 +1,1 @@
+/home/vipteam/azheng_ws/devel/.private/autobots_calibration/share/gennodejs/ros/autobots_calibration/_index.js
