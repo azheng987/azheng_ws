@@ -31,11 +31,16 @@ Ensure that the current user is part of the `dialout` group. This command should
 groups
 ```
 
-
 If you get permission issues connecting to `/dev/ttyUSB0`, run the following and logout+login.
 
 ```bash
 sudo usermod -aG dialout $USER
+```
+
+Run the following commands:
+```bash
+source devel/setup.bash
+catkin build
 ```
 
 Launch handy with the following commands:
