@@ -86,9 +86,19 @@ roslaunch finalarm_moveit_config moveit_rviz.launch
 roslaunch handy_experiment pick.launch
 ```
 
-In the rviz window that pops up, observe the Handy visualization. In Interact mode (top left button), drag and drop Handy to the desired position. 
+A rviz window will open as a result of the last set of commands. Ensure you are in Interact mode (top left button) and drag the visualization of Handy to the desired position. 
 ![IMG_2246](https://github.com/azheng987/azheng_ws/assets/53787993/00766c2a-d97f-4a7f-9983-dfe519fbba5e)
-Click "Plan & Execute" and watch Handy move!
+
+Click "Plan" to plan the movement of Handy's joints and see the visualization in rviz.
+
+
+Click "Plan & Execute" to plan the movement of Handy's joints and execute it on the real-world Handy arm!
+
+
+Operating Handy's Gripper
+1. Select "Group" and change the selection from "arm" to "gripper"
+2. Select the "end state" to be "Open" or "Close"
+3. Click "Plan & Execute" to plan the movement of Handy's joints and execute it on the real-world Handy gripper!
 
 IMPORTANT: Remember to turn off Handy after use by pressing the switch on the breadboard again.
 
