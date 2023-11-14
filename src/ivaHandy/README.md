@@ -37,16 +37,14 @@ If you get permission issues connecting to `/dev/ttyUSB0`, run the following and
 sudo usermod -aG dialout $USER
 ```
 
-Run the following commands:
+Turn on Handy by pressing the switch located on the breadboard so that the dot is pushed down. See the circled area.
+![IMG_2243](https://github.com/azheng987/azheng_ws/assets/53787993/dd0f6739-4662-44b3-9ee9-8d6ab33398a5)
+
+In a terminal, run the following commands:
 ```bash
 source devel/setup.bash
 catkin build
-```
 
-Turn on Handy by pressing the switch.
-
-Launch Handy's arm controllers with the following command:
-```bash
 # start a node responsible for managing loaded controllers
 roslaunch finalarm_control controller_manager.launch
 ```
@@ -88,7 +86,15 @@ roslaunch finalarm_moveit_config moveit_rviz.launch
 roslaunch handy_experiment pick.launch
 ```
 
-You can run the above using `docker-compose` instead:
+In the rviz window that pops up, observe the Handy visualization. In Interact mode (top left button), drag and drop Handy to the desired position. Click "Plan & Execute" and watch Handy move!
+![IMG_2246](https://github.com/azheng987/azheng_ws/assets/53787993/00766c2a-d97f-4a7f-9983-dfe519fbba5e)
+
+
+IMPORTANT: Remember to turn off Handy after use by pressing the switch on the breadboard such that the dot is up again.
+![IMG_2243](https://github.com/azheng987/azheng_ws/assets/53787993/cb35d95a-4759-46d2-8344-0948e9d328c5)
+å
+
+Note: You can run the above using `docker-compose` instead:
 
 ```bash
 docker-compose up
