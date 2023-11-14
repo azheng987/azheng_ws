@@ -90,9 +90,7 @@ In the rviz window that pops up, observe the Handy visualization. In Interact mo
 ![IMG_2246](https://github.com/azheng987/azheng_ws/assets/53787993/00766c2a-d97f-4a7f-9983-dfe519fbba5e)
 
 
-IMPORTANT: Remember to turn off Handy after use by pressing the switch on the breadboard such that the dot is up again.
-![IMG_2243](https://github.com/azheng987/azheng_ws/assets/53787993/cb35d95a-4759-46d2-8344-0948e9d328c5)
-å
+IMPORTANT: Remember to turn off Handy after use by pressing the switch on the breadboard again.
 
 Note: You can run the above using `docker-compose` instead:
 
