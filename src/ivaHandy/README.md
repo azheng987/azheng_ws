@@ -43,21 +43,44 @@ source devel/setup.bash
 catkin build
 ```
 
-Launch handy with the following commands:
+Turn on Handy by pressing the switch.
 
+Launch Handy's arm controllers with the following command:
 ```bash
 # start a node responsible for managing loaded controllers
 roslaunch finalarm_control controller_manager.launch
+```
+
+In a new terminal, run the following commands:
+```bash
+source devel/setup.bash
+catkin build
 
 # load configuration for individual controller
 roslaunch finalarm_control start_controller.launch
+```
+
+In a new terminal, run the following commands:
+```bash
+source devel/setup.bash
+catkin build
 
 # publish integrated information of controllers and transformations between links
 roslaunch finalarm_description robot_state_pub.launch
+```
 
+In a new terminal, run the following commands:
+```bash
+source devel/setup.bash
+catkin build
 # node for motion planning, collision checking, etc. jobs
 roslaunch finalarm_moveit_config move_group.launch
+```
 
+In a new terminal, run the following commands:
+```bash
+source devel/setup.bash
+catkin build
 # rviz for visualization
 roslaunch finalarm_moveit_config moveit_rviz.launch
 
