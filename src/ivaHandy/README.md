@@ -37,7 +37,7 @@ If you get permission issues connecting to `/dev/ttyUSB0`, run the following and
 sudo usermod -aG dialout $USER
 ```
 
-Turn on real-world Handy by pressing the switch located on the breadboard so that the dot is pushed down. See the circled area.
+Turn on real-world Handy by pressing the switch located on the breadboard so that the dot is pushed down. The breadboard is located at Handy's base. See the circled area.
 ![IMG_2243](https://github.com/azheng987/azheng_ws/assets/53787993/dd0f6739-4662-44b3-9ee9-8d6ab33398a5)
 
 Ensure you are in the root folder (azheng_ws). In a bash terminal, run the following commands:
