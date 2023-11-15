@@ -37,10 +37,10 @@ If you get permission issues connecting to `/dev/ttyUSB0`, run the following and
 sudo usermod -aG dialout $USER
 ```
 
-Turn on Handy by pressing the switch located on the breadboard so that the dot is pushed down. See the circled area.
+Turn on real-world Handy by pressing the switch located on the breadboard so that the dot is pushed down. See the circled area.
 ![IMG_2243](https://github.com/azheng987/azheng_ws/assets/53787993/dd0f6739-4662-44b3-9ee9-8d6ab33398a5)
 
-In a terminal, run the following commands:
+Ensure you are in the root folder (azheng_ws). In a bash terminal, run the following commands:
 ```bash
 source devel/setup.bash
 catkin build
@@ -56,12 +56,6 @@ catkin build
 
 # load configuration for individual controller
 roslaunch finalarm_control start_controller.launch
-```
-
-In a new terminal, run the following commands:
-```bash
-source devel/setup.bash
-catkin build
 
 # publish integrated information of controllers and transformations between links
 roslaunch finalarm_description robot_state_pub.launch
@@ -81,26 +75,34 @@ source devel/setup.bash
 catkin build
 # rviz for visualization
 roslaunch finalarm_moveit_config moveit_rviz.launch
+```
 
+An RViz window will open. Using the RViz window:
+1. Ensure you are in "Interact" mode (top left button) and drag the visualization of Handy to the desired position. You can click on "Move Camera" (button to the right of the "Interact" button) and move the camera to help with this.
+2. Ensure you are on the tab "Planning" under the header "MotionPlanning". This should already be open by default.
+3. Click "Plan" to see the visualization of Handy's planned movement in rviz. (OPTIONAL)
+4. Click "Plan & Execute" to plan Handy's movement and execute it on the real-world Handy arm!
+
+See the below image.
+![unnamed-1](https://github.com/azheng987/azheng_ws/assets/53787993/348879d8-c043-45f0-9a94-c314e733f2b0)
+
+Operating Handy's Gripper (WIP, not operational yet)
+1. Under "Planning Group", change the selection from "arm" to "gripper".
+2. Under "Goal State", select "Open" or "Close".
+3. Click "Plan" to see the visualization of Handy's planned movement in rviz. (OPTIONAL)
+4. Click "Plan & Execute" to plan the movement of Handy's joints and execute it on the real-world Handy gripper!
+
+See the below image.
+![gripper control](https://github.com/azheng987/azheng_ws/assets/53787993/e12827f1-bf78-410a-9e84-d38cc7bb6d1c)
+
+
+**IMPORTANT:** Remember to turn off Handy after use by pressing the switch on the breadboard.
+
+You can also launch a file that you write for Handy to do something:
+```bash
 # launch the file you write for Handy to do something like picking object
 roslaunch handy_experiment pick.launch
 ```
-
-A rviz window will open as a result of the last set of commands. Ensure you are in Interact mode (top left button) and drag the visualization of Handy to the desired position. 
-![IMG_2246](https://github.com/azheng987/azheng_ws/assets/53787993/00766c2a-d97f-4a7f-9983-dfe519fbba5e)
-
-Click "Plan" to plan the movement of Handy's joints and see the visualization in rviz.
-
-
-Click "Plan & Execute" to plan the movement of Handy's joints and execute it on the real-world Handy arm!
-
-
-Operating Handy's Gripper
-1. Select "Group" and change the selection from "arm" to "gripper"
-2. Select the "end state" to be "Open" or "Close"
-3. Click "Plan & Execute" to plan the movement of Handy's joints and execute it on the real-world Handy gripper!
-
-IMPORTANT: Remember to turn off Handy after use by pressing the switch on the breadboard again.
 
 Note: You can run the above using `docker-compose` instead:
 
