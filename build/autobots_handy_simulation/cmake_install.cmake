@@ -148,7 +148,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/autobots_handy_simulation" TYPE PROGRAM FILES "/home/vipteam/azheng_ws/src/pick-and-place/ros/autobots_handy_simulation/script/spawn_random_objects.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/autobots_handy_simulation" TYPE PROGRAM FILES
+    "/home/vipteam/azheng_ws/src/pick-and-place/ros/autobots_handy_simulation/script/moveit_gazebo_model.py"
+    "/home/vipteam/azheng_ws/src/pick-and-place/ros/autobots_handy_simulation/script/query_model_poses.py"
+    "/home/vipteam/azheng_ws/src/pick-and-place/ros/autobots_handy_simulation/script/select_keypoint.py"
+    "/home/vipteam/azheng_ws/src/pick-and-place/ros/autobots_handy_simulation/script/spawn_random_objects.py"
+    )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
