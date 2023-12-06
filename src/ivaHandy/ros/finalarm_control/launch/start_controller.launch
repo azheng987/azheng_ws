@@ -31,13 +31,8 @@
       --manager=finalarm_manager
       --type=meta
       finalarm_joint_trajectory_action_controller
-      finalarm_position_controller_1
-      finalarm_position_controller_2
-      finalarm_position_controller_3
-      finalarm_position_controller_4
-      finalarm_position_controller_5
-      finalarm_position_controller_6
-      finalarm_position_controller_7
+      finalarm_position_controller_8
+      finalarm_position_controller_9
     "
     output="screen"
   />
